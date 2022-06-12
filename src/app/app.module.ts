@@ -10,10 +10,18 @@ import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { ProtfolioComponent } from './components/protfolio/protfolio.component';
-import { ContactComponent } from './component/contact/contact.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HeroComponent, AboutComponent, ResumeComponent, ProtfolioComponent, ContactComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HeroComponent,
+    AboutComponent,
+    ResumeComponent,
+    ProtfolioComponent,
+    ContactComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
