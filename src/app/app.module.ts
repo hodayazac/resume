@@ -9,8 +9,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
 import { ResumeComponent } from './components/resume/resume.component';
-import { ProtfolioComponent } from './components/protfolio/protfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ProtfolioComponent } from './components/protfolio/protfolio.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,8 @@ import { ContactComponent } from './components/contact/contact.component';
     HeroComponent,
     AboutComponent,
     ResumeComponent,
-    ProtfolioComponent,
     ContactComponent,
+    ProtfolioComponent,
   ],
   imports: [
     BrowserModule,
